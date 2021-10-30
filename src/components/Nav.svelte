@@ -26,23 +26,23 @@
 								data-rd-navbar-toggle=".rd-navbar-nav-wrap"
 								><span /></button
 							>
-							<!-- RD Navbar Brand-->
+							<!-- RD Navbar testing my keyboard  Brand-->
 							<div class="rd-navbar-brand">
 								<a class="brand" href="index.html"
 									><img
 										class="brand-logo-dark"
-										src="images/logo-default-135x21.png"
+										src="images/newlogo.png"
 										alt=""
 										width="135"
 										height="21"
-										srcset="images/logo-default-269x40.png 2x"
+										srcset="images/newlogo.png 2x"
 									/><img
 										class="brand-logo-light"
-										src="images/logo-inverse-135x21.png"
+										src="images/newlogo.png"
 										alt=""
 										width="135"
 										height="21"
-										srcset="images/logo-inverse-269x40.png 2x"
+										srcset="images/newlogo.png 2x"
 									/></a
 								>
 							</div>
@@ -210,7 +210,7 @@
 															class="rd-megamenu-list-link"
 															href="404.html"
 															>404</a
-														>
+			 											>
 													</li>
 													<li
 														class="rd-megamenu-list-item"
@@ -393,7 +393,7 @@
 												</div>
 												<div class="unit-body">
 													<a href="tel:#"
-														>(364) 106-7572</a
+														>+234810 778 0633</a
 													>
 												</div>
 											</div>
