@@ -1,6 +1,8 @@
 <script>
+import Footer from "../components/Footer.svelte";
 import IEpanel from "../components/IEpanel.svelte";
 import Nav from "../components/Nav.svelte";
+import PreFooter from "../components/PreFooter.svelte";
 
 import Preloader from "../components/Preloader.svelte";
 
@@ -134,7 +136,7 @@ import Preloader from "../components/Preloader.svelte";
 										data-caption-animate="fadeInUp"
 										data-caption-delay="350"
 									>
-										for all clients of Relish Ruelle
+										for all clients of Classiquebrushes
 									</p>
 									<a
 										class="button button-white-outline"
@@ -284,7 +286,7 @@ import Preloader from "../components/Preloader.svelte";
 							<div class="features-box-decor-item" />
 						</div>
 						<p>
-							At Relish Ruelle, we use only the best skin care and
+							At Classiquebrushes, we use only the best skin care and
 							beauty products for our clients.
 						</p>
 					</div>
@@ -647,7 +649,7 @@ import Preloader from "../components/Preloader.svelte";
 							Welcome to #1 Spa and Beauty Salon
 						</h1>
 						<p class="wow fadeInSmall" data-wow-delay=".2s">
-							Relish Ruelle Salon offers the latest and highest
+							Classiquebrushes Salon offers the latest and highest
 							quality services for you and all your family
 							members.
 						</p>
@@ -670,197 +672,7 @@ import Preloader from "../components/Preloader.svelte";
 			</div>
 		</div>
 	</section>
-	<!-- Meet Our Experts-->
-	<section class="section section-lg bg-gray-200 text-center">
-		<div class="container">
-			<h1 class="font-weight-bold wow fadeInSmall" data-wow-delay=".1s">
-				Meet Our Experts
-			</h1>
-			<div class="divider wow fadeInSmall" data-wow-delay=".2s" />
-			<div class="row row-30">
-				<div
-					class="col-sm-6 col-lg-3 wow fadeInSmall"
-					data-wow-delay=".1s"
-				>
-					<div class="box-expert">
-						<div class="box-expert-image">
-							<img
-								src="images/expert-01-200x200.png"
-								alt=""
-								width="200"
-								height="200"
-							/>
-						</div>
-						<div class="box-expert-body">
-							<h6>Katherine Cox</h6>
-							<p>Senior Esthetician</p>
-							<ul class="list-inline">
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-facebook-f"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-paper-plane"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-instagram"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-google-plus"
-										href="#"
-									/>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div
-					class="col-sm-6 col-lg-3 wow fadeInSmall"
-					data-wow-delay=".2s"
-				>
-					<div class="box-expert">
-						<div class="box-expert-image">
-							<img
-								src="images/expert-02-200x200.png"
-								alt=""
-								width="200"
-								height="200"
-							/>
-						</div>
-						<div class="box-expert-body">
-							<h6>Linda James</h6>
-							<p>Hairdresser</p>
-							<ul class="list-inline">
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-facebook-f"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-paper-plane"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-instagram"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-google-plus"
-										href="#"
-									/>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div
-					class="col-sm-6 col-lg-3 wow fadeInSmall"
-					data-wow-delay=".3s"
-				>
-					<div class="box-expert">
-						<div class="box-expert-image">
-							<img
-								src="images/expert-03-200x200.png"
-								alt=""
-								width="200"
-								height="200"
-							/>
-						</div>
-						<div class="box-expert-body">
-							<h6>Justin Perry</h6>
-							<p>Cosmetologist</p>
-							<ul class="list-inline">
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-facebook-f"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-paper-plane"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-instagram"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-google-plus"
-										href="#"
-									/>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div
-					class="col-sm-6 col-lg-3 wow fadeInSmall"
-					data-wow-delay=".4s"
-				>
-					<div class="box-expert">
-						<div class="box-expert-image">
-							<img
-								src="images/expert-04-200x200.png"
-								alt=""
-								width="200"
-								height="200"
-							/>
-						</div>
-						<div class="box-expert-body">
-							<h6>Irene Thomas</h6>
-							<p>Pedicurist</p>
-							<ul class="list-inline">
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-facebook-f"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-paper-plane"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-instagram"
-										href="#"
-									/>
-								</li>
-								<li>
-									<a
-										class="icon icon-secondary-1 icon-xs icon-circle fa-google-plus"
-										href="#"
-									/>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 	<!-- Products we use for-->
 	<section class="section section-sm bg-default">
 		<div class="container">
@@ -888,7 +700,7 @@ import Preloader from "../components/Preloader.svelte";
 							data-wow-delay=".2s"
 						/>
 						<p class="wow fadeInSmall" data-wow-delay=".3s">
-							We use only the best products at Relish Ruelle. We
+							We use only the best products at Classiquebrushes. We
 							pride ourselves on making sure our clients receive
 							only the best service and products.
 						</p>
@@ -1119,7 +931,7 @@ import Preloader from "../components/Preloader.svelte";
 			<div class="thumb-box">
 				<div class="thumb-box-image">
 					<a
-						href="images/thumb-original-04-1200x1200.jpeg"
+						href="images/thumb-04-576x576.jpeg"
 						data-lightgallery="item"
 						><img
 							src="images/thumb-04-576x576.jpeg"
@@ -1133,7 +945,7 @@ import Preloader from "../components/Preloader.svelte";
 			<div class="thumb-box">
 				<div class="thumb-box-image">
 					<a
-						href="images/thumb-original-05-1200x800.jpeg"
+						href="images/thumb-05-576x576.jpeg"
 						data-lightgallery="item"
 						><img
 							src="images/thumb-05-576x576.jpeg"
@@ -1147,131 +959,7 @@ import Preloader from "../components/Preloader.svelte";
 		</div>
 	</section>
 	<!-- Pre footer-->
-	<section
-		class="section pre-footer-classic section-lg bg-image context-dark"
-		style="background-image: url(images/bg-02.jpeg)"
-	>
-		<div class="container">
-			<div class="row row-30 justify-content-md-between">
-				<div class="col-xs-6 col-md-3 col-xl-2">
-					<a href="index.html"
-						><img
-							src="images/logo-inverse-162x25.png"
-							alt=""
-							width="162"
-							height="25"
-						/></a
-					>
-					<p>Opening hours: 8.00-18.00 Mon-Fri</p>
-					<ul class="list-inline">
-						<li>
-							<a
-								class="icon icon-primary icon-xs icon-circle fa-facebook-f"
-								href="#"
-							/>
-						</li>
-						<li>
-							<a
-								class="icon icon-primary icon-xs icon-circle fa-paper-plane"
-								href="#"
-							/>
-						</li>
-						<li>
-							<a
-								class="icon icon-primary icon-xs icon-circle fa-instagram"
-								href="#"
-							/>
-						</li>
-						<li>
-							<a
-								class="icon icon-primary icon-xs icon-circle fa-google-plus"
-								href="#"
-							/>
-						</li>
-					</ul>
-				</div>
-				<div class="col-xs-3 col-md-2">
-					<h6>Quick Links</h6>
-					<ul class="list list-marked">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about-us.html">About us</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="#">Pages</a></li>
-						<li><a href="contact-us.html">Contact us</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-3 col-md-2">
-					<h6>Services</h6>
-					<ul class="list list-marked">
-						<li>
-							<a href="single-service.html">Single Service</a>
-						</li>
-						<li><a href="#">Skin Care</a></li>
-						<li><a href="#">Massage</a></li>
-						<li><a href="#">Pedicure</a></li>
-						<li><a href="#">Hot Bath</a></li>
-						<li><a href="#">Other Services</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-8 col-md-4 col-lg-3">
-					<h6>Contacts</h6>
-					<ul class="list-contact">
-						<li>
-							<div class="list-contact-item">
-								<div class="list-contact-item-left">
-									<span
-										class="icon icon-lg icon-primary linearicons-map2"
-									/>
-								</div>
-								<div class="list-contact-item-body">
-									<p>Address</p>
-									<a href="#"
-										>646 Heritage St. Los Angeles, CA 93635s</a
-									>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="list-contact-item">
-								<div class="list-contact-item-left">
-									<span
-										class="icon icon-lg icon-primary linearicons-telephone"
-									/>
-								</div>
-								<div class="list-contact-item-body">
-									<p>Call us now</p>
-									<a href="tel:#">(364) 106-7572</a>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="list-contact-item">
-								<div class="list-contact-item-left">
-									<span
-										class="icon icon-lg icon-primary linearicons-clock3"
-									/>
-								</div>
-								<div class="list-contact-item-body">
-									<p>E-mail us</p>
-									<a href="mailto:#">mail@demolink.org</a>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+<PreFooter/>
 	<!-- Page Footer-->
-	<footer class="section footer-classic context-dark">
-		<div class="container">
-			<p class="rights">
-				<span>&copy;&nbsp;</span><span class="copyright-year" /><span
-					>&nbsp;</span
-				><span>Relish Ruelle</span><span>.&nbsp;</span>
-				<a href="privacy-policy.html">Privacy Policy</a><span>.</span>
-			</p>
-		</div>
-	</footer>
+	<Footer/>
 </div>
